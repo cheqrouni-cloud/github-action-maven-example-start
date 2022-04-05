@@ -18,8 +18,7 @@ jobs:
       - name: Hello world action step
         id: hello
         uses: actions/hello-world-docker-action@master
-        with:
-          who-to-greet: 'You You'
+
   build:
 
     runs-on: ubuntu-latest
