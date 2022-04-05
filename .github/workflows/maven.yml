@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-world-docker-action@master
+        uses: cheqrouni-cloud/actions/hello-world-docker-action@master
 
   build:
 
